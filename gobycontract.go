@@ -1,6 +1,8 @@
 // Go By Contract provides a lightweight mechanism to validate Design-by-Contract pre-conditions and post-conditions in
 // production environments by using Sentry error reporting instead of "fail hard" behaviour.
 //
+// This small library demonstrates the pattern described in the following blog post: https://icyapril.com/go/programming/2019/03/25/a-pattern-for-validating-design-by-contract-in-Production-with-go-and-sentry.html
+//
 // Setting the GOBYCONTRACT_DONTPANIC environment variable disables panics for a production environment when set to
 // "true", whilst the SENTRY_DSN environment will independently enable reporting to Sentry.
 //

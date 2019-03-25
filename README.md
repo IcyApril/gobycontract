@@ -5,6 +5,8 @@ This is a simple implementation of production-safe Design by Contract in Go, usi
 Whilst this implementation allows for errors to "fail hard" in development and staging environments, it also can be
 configured in a report-only mode for production environments.
 
+This is an example of the following pattern: [A Pattern for Validating Design by Contract Assertions in Production (with Go and Sentry)](https://icyapril.com/go/programming/2019/03/25/a-pattern-for-validating-design-by-contract-in-Production-with-go-and-sentry.html)
+
 ## Environment Variables
 
 * `GOBYCONTRACT_DONTPANIC` when set to "true" will stop panicking when the ````Require```` or `````Ensure```` checks fail
