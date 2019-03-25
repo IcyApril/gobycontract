@@ -11,8 +11,8 @@
 // 			minutes = seconds/60
 // 			remainingSeconds = seconds % 60
 //
-// 			gobycontract.Ensure(minutes > 0, "Output minutes most be positive")
-// 			gobycontract.Ensure(remainingSeconds > 0, "Output remaining seconds most be positive")
+// 			gobycontract.Ensure(minutes > 0, "Output minutes must be positive")
+// 			gobycontract.Ensure(remainingSeconds > 0, "Output remaining seconds must be positive")
 // 			gobycontract.Ensure(remainingSeconds < 59, "There can be no more than 59 remaining seconds")
 //
 // 			return
